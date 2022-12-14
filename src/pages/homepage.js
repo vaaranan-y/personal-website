@@ -2,6 +2,9 @@ import react, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import IntroSlide from "./Slides/introslide";
+import AboutSlide from "./Slides/aboutslide";
+import ProjectSlide from "./Slides/projectslide";
+import Fade from "react-reveal/Fade";
 import "./styles.css";
 
 export default function HomePage() {
@@ -34,12 +37,12 @@ export default function HomePage() {
         </nav>
       </header>
       <IntroSlide />
-      <section id="about">
-        <div>ABOUT</div>
-      </section>
-      <section id="projects">
-        <div>PROJECTS</div>
-      </section>
+      <Fade bottom duration={2000}>
+        <AboutSlide />
+      </Fade>
+      <Fade bottom duration={2000}>
+        <ProjectSlide />
+      </Fade>
       <section id="blog">
         <div>BLOG</div>
       </section>

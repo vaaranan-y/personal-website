@@ -96,13 +96,14 @@ export default function ProjectSlide() {
               fontWeight: 200,
             }}
           >
-            One of my later projects, this web app I developed helped me better
-            understand CRUD operations and use REST APIs and is one of many
-            things that inspired me to learn more about Backend development.
-            InstaRecipe was a web app I created for me and my friends to
-            socialize and bond over food. As the name implies, you make posts
-            like instagram, but in the form of recipes, which anyone can read,
-            but only owners can modify, using proper secuirty measures.
+            This is one of my most recent projects. I used the VADER setniment
+            analysis NLP model to analyze and produce a sentiment score for each
+            of a certain number of comments retrieved from a youtube video a
+            user is currently watching, using a 3rd Party YouTube API. This is
+            all done in a backend API I developed in Django. I created a
+            frontend for chrome extension to display the results of my API,
+            using Angular.js, creating a circular representation of the
+            normalized average sentiment score on a scale from 0 to 100.
           </p>
         </Col>
       </Row>

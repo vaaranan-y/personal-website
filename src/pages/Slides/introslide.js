@@ -10,25 +10,25 @@ export default function IntroSlide() {
   return (
     <div
       id="home"
-      style={{ backgroundColor: "#eaf2fa", height: window.innerHeight }}
+      style={{ backgroundColor: "#116466", height: window.innerHeight }}
     >
       <div style={{ marginTop: "2.5%", marginLeft: "5%" }}>
         <Typewriter
           options={{
             wrapperClassName: "typewriter_title",
             delay: 25,
+            cursorClassName: "cursorClass",
           }}
           onInit={(typewriter) => {
             typewriter
               .typeString(
-                'intro(name={"<span id="name_tag">Vaaranan</span>"});'
+                '<span id="titleText">intro(name={"<span id="name_tag">Vaaranan</span>"});<span>'
               )
               .callFunction(() => {
                 setVisible(true);
               })
               .start();
           }}
-          style={{ fontFamily: "Courier" }}
         />
       </div>
       <div
@@ -38,6 +38,7 @@ export default function IntroSlide() {
           fontFamily: "Avenir",
           fontWeight: "100",
           marginLeft: "5%",
+          color: "#FFCB9A",
         }}
       >
         {introBlurb}

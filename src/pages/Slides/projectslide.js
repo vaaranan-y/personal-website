@@ -34,6 +34,13 @@ export default function ProjectSlide() {
               fontFamily: "Avenir",
               fontSize: 20,
               fontWeight: 200,
+              backgroundColor: "#EEEADE",
+              color: "#6A6A6A",
+              boxShadow: 0.2,
+              padding: 20,
+              borderRadius: 10,
+              borderColor: "#6A6A6A",
+              boxShadow: "0 0 10px #9ecaed",
             }}
           >
             This was one of the first projects I developed, made from pure Java,

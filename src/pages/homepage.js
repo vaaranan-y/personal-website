@@ -4,13 +4,14 @@ import { Link } from "react-scroll";
 import IntroSlide from "./Slides/introslide";
 import AboutSlide from "./Slides/aboutslide";
 import ProjectSlide from "./Slides/projectslide";
+import CareerSlide from "./Slides/careerslide";
 import Fade from "react-reveal/Fade";
 import "./styles.css";
 
 export default function HomePage() {
   return (
     <div className="App">
-      <header className="nav">
+      {/* <header className="nav">
         <nav className="nav__container__actions">
           <ul>
             <li>
@@ -21,6 +22,11 @@ export default function HomePage() {
             <li>
               <Link activeClass="active" smooth spy to="projects">
                 PROJECTS
+              </Link>
+            </li>
+            <li>
+              <Link activeClass="active" smooth spy to="career">
+                CAREER
               </Link>
             </li>
             <li>
@@ -35,20 +41,11 @@ export default function HomePage() {
             </li>
           </ul>
         </nav>
-      </header>
+      </header> */}
       <IntroSlide />
-      <Fade bottom duration={2000}>
-        <AboutSlide />
-      </Fade>
-      <Fade bottom duration={2000}>
-        <ProjectSlide />
-      </Fade>
-      <section id="blog">
-        <div>BLOG</div>
-      </section>
-      <section id="contact">
-        <div>CONTACT ME</div>
-      </section>
+      {/* <AboutSlide />
+      <ProjectSlide />
+      <CareerSlide /> */}
     </div>
   );
 }

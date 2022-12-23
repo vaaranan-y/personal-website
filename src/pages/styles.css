@@ -19,8 +19,6 @@
   #career {
     height: 5000px;
   }
-  
-
 
   .nav {
     display: flex;
@@ -67,38 +65,57 @@
     text-decoration: underline;
   }
 
-  #home {
-    display: grid;
-    font-size: 32px;
-    font-weight: bold;
-    padding-bottom: 5%;
-  }
 
   .typewriter_title{
-    font-family: 'Avenir';
+    font-weight: bold;
     font-weight: "600";
-    font-size: 75px;
-    justify-content: left;
-    align-items: flex-start;
-    margin-bottom: 15%;
   }
   
   .Typewriter__cursor{
     font-size: 75px;
   }
 
-  #name_tag{
-    background-color: #FFCB9A;
-    color: #116466;
+  .Typewriter{
+    font-size: 0px;
+    padding-left: 5%;
+  }
 
+  #name_tag{
+    background: -webkit-linear-gradient(#89CFF0, #0096FF);
+    color: #152238;
+    font-size: 7.5vw;
+    font-family: "Avenir";
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  #subText{
+    background: -webkit-linear-gradient(#E5E4E2, #C0C0C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Avenir";
+    font-size: 4vw;
   }
 
   #titleText{
-    color: #FFCB9A;
+    background: -webkit-linear-gradient(#89CFF0, #0096FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Avenir";
+    font-size: 7.5vw;
+  }
+
+  #introBlurb{
+    font-family: "Avenir";
+    font-size: 25px;
+    font-weight: 500;
+    font-size: 2.5vw;
   }
 
   .cursorClass{
-    color: #FFCB9A;
+    background: -webkit-linear-gradient(#E5E4E2, #C0C0C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-size: 75px;
   }
 
@@ -113,13 +130,23 @@
 
 }
 
+#introSubSection{
+  width: 100%;
+  font-family: "Avenir";
+  font-weight: "100";
+  padding: 5%;
+  padding-bottom: 2.5%;
+  display: "inline-block";
+  align-content: center;
+}
+
 th{
   font-family: 'Avenir';
   font-weight: 700;
   font-size: 30px;
-  text-align: center;
   padding-left: 100px;
   padding-right: 100px;
+  color: #0096FF !important;
 }
 
 td{
@@ -128,8 +155,56 @@ td{
   font-size: 20px;
   text-align: center;
   padding: 10px;
+  color: #89CFF0;
 }
 
 #about {
   height: 50%;
+  background-color: "#FFCB9A";
+}
+
+
+#gear1, #gear2, #gear3 {
+  color: #888;
+  display: block;
+  float: left;
+}
+
+#aboutTitle, #knowledgeTitle {
+  background: -webkit-linear-gradient(#89CFF0, #0096FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:800px){
+  #titleText{
+    background: -webkit-linear-gradient(#89CFF0, #0096FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Avenir";
+    font-size: 12vw;
+    text-align: center;
+  }
+  #name_tag{
+    background: -webkit-linear-gradient(#89CFF0, #0096FF);
+    color: #152238;
+    font-size: 12vw;
+    font-family: "Avenir";
+    padding: 5px;
+    border-radius: 10px;
+  }
+
+  #subText{
+    background: -webkit-linear-gradient(#E5E4E2, #C0C0C0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Avenir";
+    font-size: 4.5vw;
+  }
+
+  #introBlurb{
+    text-align: center;
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
+  }
 }

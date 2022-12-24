@@ -7,8 +7,18 @@ import animationData from "./spinning-cogs";
 import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { FaLinkedinIn, FaGithub, FaMedium, FaInstagram } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
 
 export default function IntroSlide() {
+  const [size, setSize] = useState(window.innerWidth);
+
+  const handleResize = () => {
+    setSize(window.innerWidth);
+  };
+
+  window.addEventListener("resize", handleResize);
+
   const introBlurb =
     "Hi! My name is Vaaranan Yogalingam, and I am a 3rd Year Computer Science, Co-op student at the University of waterloo, pursuing a specialization in Digital Hardware. I am a passionate learner, who enjoys the challenging and evolving nature of the tech field!";
   const [visible, setVisible] = useState(false);
@@ -45,15 +55,50 @@ export default function IntroSlide() {
       </div>
       <div className={visible ? "fadeIn" : "fadeOut"} id={"introSubSection"}>
         <Row>
-          <Col lg={7}>
+          <Col lg={6}>
             <div id={"introBlurb"} style={{ color: "#0096FF" }}>
               {introBlurb}
             </div>
+            <div id="socialsContainer">
+              <a href={"mailto:vyogalin@uwaterloo.ca"}>
+                <AiOutlineMail
+                  id={"socialIcon"}
+                  size={size <= 992 ? "7.5vw" : "3.5vw"}
+                />
+              </a>
+              <a href={"https://www.linkedin.com/in/vyogalin/"}>
+                <FaLinkedinIn
+                  id={"socialIcon"}
+                  size={size <= 992 ? "7.5vw" : "3.5vw"}
+                />
+              </a>
+
+              <a href={"https://github.com/vaaranan-y"}>
+                <FaGithub
+                  id={"socialIcon"}
+                  size={size <= 992 ? "7.5vw" : "3.5vw"}
+                />
+              </a>
+
+              <a href={"https://medium.com/@vaaranan.y"}>
+                <FaMedium
+                  id={"socialIcon"}
+                  size={size <= 992 ? "7.5vw" : "3.5vw"}
+                />
+              </a>
+
+              <a href={"https://www.instagram.com/vaaranan_"}>
+                <FaInstagram
+                  id={"socialIcon"}
+                  size={size <= 992 ? "7.5vw" : "3.5vw"}
+                />
+              </a>
+            </div>
           </Col>
-          <Col lg={5} style={{ display: "flex", justifyContent: "center" }}>
+          <Col lg={6} style={{ display: "flex", justifyContent: "center" }}>
             <div
               style={{
-                width: "75%",
+                width: "27.5vw",
               }}
             >
               <Lottie options={defaultOptions} />

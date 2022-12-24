@@ -106,9 +106,8 @@
 
   #introBlurb{
     font-family: "Avenir";
-    font-size: 25px;
     font-weight: 500;
-    font-size: 2.5vw;
+    font-size: 1.75vw;
   }
 
   .cursorClass{
@@ -257,6 +256,16 @@ td{
   font-family: "Avenir";
 }
 
+#socialIcon {
+  color: #C0C0C0 !important; 
+  margin: 5%; 
+  margin-left: 0%;
+}
+
+#socialsContainer {
+  margin-top: 10%;
+}
+
 @media (max-width:992px){
   #titleText{
     background: -webkit-linear-gradient(#89CFF0, #0096FF);
@@ -266,6 +275,9 @@ td{
     font-size: 12vw;
     text-align: center;
   }
+
+  
+
   #name_tag{
     background: -webkit-linear-gradient(#89CFF0, #0096FF);
     color: #152238;
@@ -277,6 +289,8 @@ td{
     padding-left: 5px;
     border-radius: 10px;
   }
+
+  
 
   #subText{
     background: -webkit-linear-gradient(#E5E4E2, #C0C0C0);
@@ -328,15 +342,14 @@ td{
     margin-left: auto;
     margin-right: auto;
   }
+
+  #socialIcon {
+    margin: 5%;
+  }
+
+ #socialsContainer {
+   display: flex;
+   justify-content: center;
+ }
 }
 
-/* font-family: "Avenir";
-  font-size: 1.5vw;
-  font-weight: 200;
-  background: -webkit-linear-gradient(#0096FF, #152238);
-  color: #89CFF0;
-  box-shadow: 0.2;
-  padding: 20px;
-  border-radius: 10px;
-  border-color: #6A6A6A;
-  box-shadow: 0 0 10px #9ecaed; */

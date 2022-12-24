@@ -251,6 +251,12 @@ td{
   width: 80%;
 }
 
+.vertical-timeline-element-content{
+  background: -webkit-linear-gradient(#0096FF, #152238) !important;
+  color: #C0C0C0 !important;
+  font-family: "Avenir";
+}
+
 @media (max-width:992px){
   #titleText{
     background: -webkit-linear-gradient(#89CFF0, #0096FF);

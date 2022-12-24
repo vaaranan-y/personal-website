@@ -5,25 +5,33 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import react, { useState } from "react";
 import "../styles.css";
+import CemcLogo from "./CEMC_Logo.jpg";
+import YuJaLogo from "./YuJa_Logo.jpg";
+import InclusionUILogo from "./InclusionUI_Logo.svg";
+import AltaMLLogo from "./AltaML_Logo.jpg";
+import MSLogo from "./MS_Logo.jpg";
 
 export default function CareerSlide() {
   return (
-    <div
-      style={{
-        padding: 50,
-        height: "50px",
-        backgroundColor: "#FFFFFF",
-        minHeight: "2500px",
-      }}
-    >
-      <h1 style={{ fontFamily: "Avenir" }}>EXPERIENCE</h1>
-      <VerticalTimeline lineColor={"#1F1F1F"}>
+    <div style={{ padding: 50, backgroundColor: "#152238", height: "100%" }}>
+      <h1
+        id={"projectsTitle"}
+        style={{ fontFamily: "Avenir", fontWeight: "900" }}
+      >
+        EXPERIENCE
+      </h1>
+      <VerticalTimeline lineColor={"#C0C0C0"}>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
           date="September 2022 - December 2022"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={YuJaLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
         >
           <h3 className="vertical-timeline-element-title">
             Software Devloper and Design Intern @ YuJa Inc.
@@ -37,9 +45,15 @@ export default function CareerSlide() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           date="January 2022 - May 2022"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={CemcLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
         >
           <h3 className="vertical-timeline-element-title">
             Full Stack Developer @ The CEMC
@@ -55,9 +69,22 @@ export default function CareerSlide() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           date="July 2021 - October 2021"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "#000000", color: "#fff" }}
+          icon={
+            <img
+              src={InclusionUILogo}
+              alt="loading..."
+              style={{
+                width: "100%",
+                display: "flex",
+                marginTop: "auto",
+                marginBottom: "auto",
+                borderRadius: "10%",
+                padding: "20%",
+              }}
+            />
+          }
         >
           <h3 className="vertical-timeline-element-title">
             Volunteer Frontend Developer @ InclusionUI
@@ -77,9 +104,15 @@ export default function CareerSlide() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           date="July 2021 - August 2021"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={AltaMLLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
         >
           <h3 className="vertical-timeline-element-title">
             Junior Machine Learning Developer @ AltaML
@@ -94,25 +127,14 @@ export default function CareerSlide() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          date="July 2021 - August 2021"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-        >
-          <h3 className="vertical-timeline-element-title">
-            Junior Machine Learning Developer @ AltaML
-          </h3>
-          <h4 className="vertical-timeline-element-subtitle">Calgary, AB</h4>
-          <p>
-            Partnered with Rogers Media Team to develop a computer vision model
-            to analyze hockey game footage to track players and pucks, for
-            statistical analysis of players and game strategies.
-          </p>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           date="June 2021 - April 2022"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={MSLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
         >
           <h3 className="vertical-timeline-element-title">
             Firmware Team Member @ UW Midnight Sun Solar Car Design Team

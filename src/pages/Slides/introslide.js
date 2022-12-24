@@ -23,7 +23,7 @@ export default function IntroSlide() {
   };
 
   return (
-    <section style={{ backgroundColor: "#152238", overflow: "scroll" }}>
+    <div style={{ backgroundColor: "#152238", overflow: "auto" }}>
       <div>
         <Typewriter
           options={{
@@ -61,7 +61,7 @@ export default function IntroSlide() {
           </Col>
         </Row>
       </div>
-    </section>
+    </div>
 
     // <section style={{ backgroundColor: "#152238", height: 800 }}>
     //   <div>

@@ -43,8 +43,8 @@ export default function HomePage() {
         </nav>
       </header> */}
       <IntroSlide />
-      {/* <AboutSlide />
-      <ProjectSlide />
+      <AboutSlide />
+      {/* <ProjectSlide />
       <CareerSlide /> */}
     </div>
   );

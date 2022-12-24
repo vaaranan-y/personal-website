@@ -44,8 +44,8 @@ export default function HomePage() {
       </header> */}
       <IntroSlide />
       <AboutSlide />
-      {/* <ProjectSlide />
-      <CareerSlide /> */}
+      <ProjectSlide />
+      {/* <CareerSlide /> */}
     </div>
   );
 }

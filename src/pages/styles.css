@@ -129,6 +129,19 @@
 
 }
 
+#projectDesc {
+  font-family: "Avenir";
+  font-size: 1.5vw;
+  font-weight: 200;
+  background: -webkit-linear-gradient(#0096FF, #152238);
+  color: #89CFF0;
+  box-shadow: 0.2;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #6A6A6A;
+  box-shadow: 0 0 10px #9ecaed;
+}
+
 #introSubSection{
   width: 100%;
   font-family: "Avenir";
@@ -200,6 +213,12 @@ td{
   -webkit-text-fill-color: transparent;
 }
 
+#projectsTitle {
+  background: -webkit-linear-gradient(#89CFF0, #0096FF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 
 #knowledgeTitle {
   background: -webkit-linear-gradient(#89CFF0, #0096FF);
@@ -232,7 +251,7 @@ td{
   width: 80%;
 }
 
-@media (max-width:1000px){
+@media (max-width:992px){
   #titleText{
     background: -webkit-linear-gradient(#89CFF0, #0096FF);
     -webkit-background-clip: text;
@@ -297,4 +316,21 @@ td{
     font-size: 7.5vw;
   }
 
+  #projectDesc {
+    margin-top: 5%;
+    font-size: 2.75vw;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
+
+/* font-family: "Avenir";
+  font-size: 1.5vw;
+  font-weight: 200;
+  background: -webkit-linear-gradient(#0096FF, #152238);
+  color: #89CFF0;
+  box-shadow: 0.2;
+  padding: 20px;
+  border-radius: 10px;
+  border-color: #6A6A6A;
+  box-shadow: 0 0 10px #9ecaed; */

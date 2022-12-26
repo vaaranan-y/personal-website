@@ -245,6 +245,18 @@ export default function HomePage() {
       <AboutSlide />
       <CareerSlide />
       <ProjectSlide />
+      <footer className="footer">
+        <p
+          style={{
+            fontSize: "100%",
+            color: "#C0C0C0",
+            textAlign: "center",
+            fontFamily: "Avenir",
+          }}
+        >
+          &#169; Vaaranan Yogalingam 2023
+        </p>
+      </footer>
     </div>
   );
 }

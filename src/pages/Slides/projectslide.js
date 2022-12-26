@@ -21,6 +21,7 @@ export default function ProjectSlide() {
   if (size > 992) {
     return (
       <section
+        id={"projects"}
         style={{ padding: 50, backgroundColor: "#152238", height: "100%" }}
       >
         <h1

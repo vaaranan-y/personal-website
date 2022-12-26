@@ -2,7 +2,7 @@ import react, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import "../styles.css";
-import Portrait from "./Portrait_Vaaranan_Yogalingam.png";
+import Portrait from "./Portrait_Vaaranan Yogalingam.png";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 

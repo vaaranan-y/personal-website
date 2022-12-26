@@ -33,8 +33,8 @@ export default function IntroSlide() {
   };
 
   return (
-    <div style={{ backgroundColor: "#152238", overflow: "auto" }}>
-      <div>
+    <div id={"intro"} style={{ backgroundColor: "#152238", overflow: "auto" }}>
+      <div style={{ marginTop: "2.5%" }}>
         <Typewriter
           options={{
             wrapperClassName: "typewriter_title",

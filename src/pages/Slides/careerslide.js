@@ -13,7 +13,10 @@ import MSLogo from "./MS_Logo.jpg";
 
 export default function CareerSlide() {
   return (
-    <div style={{ padding: 50, backgroundColor: "#152238", height: "100%" }}>
+    <div
+      id={"career"}
+      style={{ padding: 50, backgroundColor: "#152238", height: "100%" }}
+    >
       <h1
         id={"projectsTitle"}
         style={{ fontFamily: "Avenir", fontWeight: "900" }}

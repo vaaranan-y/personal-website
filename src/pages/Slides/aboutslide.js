@@ -1,5 +1,4 @@
 import react, { useState } from "react";
-import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import "../styles.css";
 import Portrait from "./Portrait_Vaaranan Yogalingam.png";

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Typewriter from "typewriter-effect";
 import { Link } from "react-scroll";
 import IntroSlide from "./Slides/introslide";
 import AboutSlide from "./Slides/aboutslide";

@@ -141,7 +141,7 @@ export default function ProjectSlide() {
                 }}
               >
                 A web app created for people to socialize and bond over food.
-                Users can't make posts like on instagram, but in the form of
+                Users can make posts like on instagram, but in the form of
                 recipes to share with others.
               </p>
             </Row>
@@ -209,8 +209,8 @@ export default function ProjectSlide() {
               >
                 A chrome extension that analyzes the comments of a YouTube video
                 a user is currently watching, and returns the overall sentiment
-                score on a scale of 0% to 100% (a pseudo replacement for the
-                noew removed dislike button)
+                score on a scale of 0% to 100% (a pseudo replacement for the now
+                removed dislike button)
               </p>
             </Row>
             <Row style={{ justifyContent: "center" }}>

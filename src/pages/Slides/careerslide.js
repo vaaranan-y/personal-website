@@ -41,9 +41,11 @@ export default function CareerSlide() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Toronto, ON</h4>
           <p>
-            Developed student response system applicaiton called Engage, to
-            allow educational instructors to provision quizzes and polls to
-            students during lecture/class time.
+            Developed a student response system, full-stack applicaiton, called
+            YuJa Engage. The front end was developed in React.js and the Backend
+            APIs were developed in Java. The purpose of our product was to allow
+            educational instructors to provision quizzes and polls to students
+            during lecture/class time.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -63,11 +65,11 @@ export default function CareerSlide() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Waterloo, ON</h4>
           <p>
-            Developed contest proctoring web application using MySQL and PHP
-            backend, and vanilla JavaScript frontend. Also created in-house
-            software to eliminate manual processes for customer service team
-            (i.e. participant archival system) and the contest creation team
-            (LaTeX to HTML conversion script).
+            Developed contest proctoring web application(s) using MySQL and PHP
+            for the backend, and vanilla JavaScript for the frontend. Also
+            created in-house software to eliminate manual processes for customer
+            service team (i.e. a participant archival system) and the contest
+            creation team (i.e. a LaTeX to HTML conversion script).
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -94,14 +96,12 @@ export default function CareerSlide() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Lambeth, UK</h4>
           <p>
-            Volunteered to work virtually with 5 other developers from the US
-            and UK to develop a digital calendar/schedule tracker to help a
-            client with Autism organize his week, and gain digital and personal
-            independence. I developed the first iteration of the front end of
-            the app in Vanilla JavaScript, HTML and CSS. It was fulfilling
-            experience, as I got to see my work actually help someone, and I
-            learned a lot about the software development cycle in the process.
-            To learn more about this initiative, please visit:
+            Volunteered to work virtually with various developers globally, to
+            develop a digital calendar/schedule tracker to help a client with
+            Autism plan his week, and gain digital and personal independence.
+            Responsible for developing the first iteration of the app in Vanilla
+            JavaScript, HTML and CSS. Aided in pushing application to open
+            source. To learn more about this initiative, please visit:
             https://inclusion-ui.com/activity-calendar/.
           </p>
         </VerticalTimelineElement>
@@ -146,9 +146,8 @@ export default function CareerSlide() {
           <p>
             Developed firmware in C and ARM Assembly for various parts of a
             Solar Powered Car, including the Battery Management System, the
-            Bootloader, temperature monitors, and more. Worked with and flashed
-            my code onto STM 32 Microcontrollers, one of my first experiences
-            with Microcontrollers.
+            Bootloader, Temperature Monitors, and more. Worked with and flashed
+            code onto STM 32 Microcontrollers.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

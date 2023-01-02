@@ -9,6 +9,8 @@ import Fade from "react-reveal/Fade";
 import "./styles.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import { DropdownButton } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Pdf from "./resume.pdf";
 
 export default function HomePage() {
   const [size, setSize] = useState(window.innerWidth);
@@ -56,8 +58,9 @@ export default function HomePage() {
                 <Dropdown.Item href="#intro">HOME</Dropdown.Item>
                 <Dropdown.Item href="#about">ABOUT</Dropdown.Item>
                 <Dropdown.Item href="#career">EXPERIENCE</Dropdown.Item>
-                <Dropdown.Item href="#projects" className={"lastItem"}>
-                  PROJECTS
+                <Dropdown.Item href="#projects">PROJECTS</Dropdown.Item>
+                <Dropdown.Item href={Pdf} className={"lastItem"}>
+                  RESUME
                 </Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown>
@@ -73,6 +76,8 @@ export default function HomePage() {
             padding: "1.5%",
             width: "100%",
             zIndex: 10,
+            display: "flex",
+            alignItems: "center",
           }}
         >
           <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
@@ -158,6 +163,11 @@ export default function HomePage() {
             >
               PROJECTS
             </Link>
+          </span>
+          <span style={{ position: "absolute", float: "right", right: "2.5%" }}>
+            <Button href={Pdf} variant="info" style={{ fontFamily: "Avenir" }}>
+              Resume
+            </Button>
           </span>
         </nav>
       )}

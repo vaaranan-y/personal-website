@@ -11,6 +11,7 @@ export default function AboutSlide() {
       <div
         style={{
           padding: "5%",
+          paddingBottom: "2.5%",
           backgroundColor: "#152238",
         }}
       >
@@ -64,29 +65,33 @@ export default function AboutSlide() {
           <Row style={{ color: "#FFFFFF" }}>
             <Col style={{ justifyContent: "center" }}>
               <Row id={"skillTitle"}>Languages</Row>
-              <Row id={"skillItem"}>Java</Row>
-              <Row id={"skillItem"}>JavaScript</Row>
-              <Row id={"skillItem"}>Python</Row>
-              <Row id={"skillItem"}>C++</Row>
-              <Row id={"skillItem"}>C</Row>
-              <Row id={"skillItem"}>ARM Assembly</Row>
+              <Row id={"skillItem"}>&#8227; Java</Row>
+              <Row id={"skillItem"}>&#8227; JavaScript</Row>
+              <Row id={"skillItem"}>&#8227; Python</Row>
+              <Row id={"skillItem"}>&#8227; PHP</Row>
+              <Row id={"skillItem"}>&#8227; C++</Row>
+              <Row id={"skillItem"}>&#8227; C</Row>
+              <Row id={"skillItem"}>&#8227; ARM Assembly</Row>
             </Col>
             <Col>
               <Row id={"skillTitle"}>Frameworks</Row>
-              <Row id={"skillItem"}>React.js</Row>
-              <Row id={"skillItem"}>Express.js</Row>
-              <Row id={"skillItem"}>Django</Row>
-              <Row id={"skillItem"}>React Native</Row>
-              <Row id={"skillItem"}>Angular.js</Row>
+              <Row id={"skillItem"}>&#8227; Node.js</Row>
+              <Row id={"skillItem"}>&#8227; React.js</Row>
+              <Row id={"skillItem"}>&#8227; Express.js</Row>
+              <Row id={"skillItem"}>&#8227; Django</Row>
+              <Row id={"skillItem"}>&#8227; React Native</Row>
+              <Row id={"skillItem"}>&#8227; Angular.js</Row>
             </Col>
             <Col>
               <Row id={"skillTitle"}>Technologies</Row>
-              <Row id={"skillItem"}>AWS</Row>
-              <Row id={"skillItem"}>Azure</Row>
-              <Row id={"skillItem"}>Micro Controllers (STM 32, Arduino)</Row>
-              <Row id={"skillItem"}>ARM Assembly</Row>
-              <Row id={"skillItem"}>Computer Vision Modeling</Row>
-              <Row id={"skillItem"}>Natural Language Processing</Row>
+              <Row id={"skillItem"}>&#8227; AWS</Row>
+              <Row id={"skillItem"}>&#8227; Azure</Row>
+              <Row id={"skillItem"}>
+                &#8227; Micro Controllers (STM 32, Arduino)
+              </Row>
+              <Row id={"skillItem"}>&#8227; ARM Assembly</Row>
+              <Row id={"skillItem"}>&#8227; Computer Vision</Row>
+              <Row id={"skillItem"}>&#8227; Natural Language Processing</Row>
             </Col>
           </Row>
         </div>

@@ -75,162 +75,90 @@ export default function HomePage() {
             zIndex: 10,
           }}
         >
-          <span>
-            <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="intro"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                HOME
-              </Link>
-            </span>
-            <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="about"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                ABOUT
-              </Link>
-            </span>
-            <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="career"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                EXPERIENCE
-              </Link>
-            </span>
-            <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="projects"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                PROJECTS
-              </Link>
-            </span>
+          <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="intro"
+              style={
+                size <= 992
+                  ? { display: "none" }
+                  : {
+                      color: "#C0C0C0",
+                      fontFamily: "Avenir",
+                      fontSize: "1.5vw",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                    }
+              }
+            >
+              HOME
+            </Link>
           </span>
-          {/* <span>
-            <span style={{ margin: "10%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="intro"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                HOME
-              </Link>
-            </span>
-            <span style={{ margin: "10%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="about"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                ABOUT
-              </Link>
-            </span>
-            <span style={{ margin: "10%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="career"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                EXPERIENCE
-              </Link>
-            </span>
-            <span style={{ margin: "10%" }}>
-              <Link
-                activeClass="active"
-                smooth
-                spy
-                to="projects"
-                style={
-                  size <= 992
-                    ? { display: "none" }
-                    : {
-                        color: "#C0C0C0",
-                        fontFamily: "Avenir",
-                        fontSize: "1.5vw",
-                      }
-                }
-              >
-                PROJECTS
-              </Link>
-            </span>
-          </span> */}
+          <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="about"
+              style={
+                size <= 992
+                  ? { display: "none" }
+                  : {
+                      color: "#C0C0C0",
+                      fontFamily: "Avenir",
+                      fontSize: "1.5vw",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                    }
+              }
+            >
+              ABOUT
+            </Link>
+          </span>
+          <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="career"
+              style={
+                size <= 992
+                  ? { display: "none" }
+                  : {
+                      color: "#C0C0C0",
+                      fontFamily: "Avenir",
+                      fontSize: "1.5vw",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                    }
+              }
+            >
+              EXPERIENCE
+            </Link>
+          </span>
+          <span style={{ marginLeft: "2.5%", marginRight: "2.5%" }}>
+            <Link
+              activeClass="active"
+              smooth
+              spy
+              to="projects"
+              style={
+                size <= 992
+                  ? { display: "none" }
+                  : {
+                      color: "#C0C0C0",
+                      fontFamily: "Avenir",
+                      fontSize: "1.5vw",
+                      textDecoration: "none",
+                      cursor: "pointer",
+                    }
+              }
+            >
+              PROJECTS
+            </Link>
+          </span>
         </nav>
       )}
       <div

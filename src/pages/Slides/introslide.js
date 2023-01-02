@@ -20,7 +20,7 @@ export default function IntroSlide() {
   window.addEventListener("resize", handleResize);
 
   const introBlurb =
-    "Hi! My name is Vaaranan Yogalingam, and I am a 3rd Year Computer Science, Co-op student at the University of waterloo, pursuing a specialization in Digital Hardware. I am a passionate learner, who enjoys the challenging and evolving nature of the tech field!";
+    "👋 Hi! My name is Vaaranan Yogalingam, and I am a 3rd Year Computer Science Co-op student, at the University of Waterloo, pursuing a specialization in Digital Hardware. I am a passionate learner, who enjoys the challenging and evolving nature of the tech field!";
   const [visible, setVisible] = useState(false);
 
   const defaultOptions = {

@@ -25,28 +25,30 @@ export default function AboutSlide() {
           <Col lg={8}>
             <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
-                I have been coding since the age of 10, when I created my first
-                program: a quiz game made from bash script. It ignited my
-                passion for coding, and using programming to solve and implement
-                my problems and ideas.
+                I first learned to code when I was around 10, creating a bash
+                script quiz game in notepad. This simple program ignited my
+                passion for coding, and inspired me to use programming to solve
+                and implement solutions to everyday challenges and problems.
               </p>
             </Row>
             <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
                 My interests include Backend Development, Cloud Computing,
                 Embedded Systems/Firmware, and Machine Learning. I hope to one
-                one day combine all these skills into a career related to IoT
-                development.
+                one day combine all these skills and achieve a goal in IoT
+                development. However, I still have a lot to explore and learn,
+                so I am open to any and all opportunities!
               </p>
             </Row>
             <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
-                In my free time, I do photography, which I have been doing for
-                about 6 years. I also practice Taekwondo, having recently
-                received my first degree black belt in 2019, after training for
-                almost 10 years. Finally, I volunteer at my local food bank
-                called "FeedScarborough" on the Weekends, when I am back in
-                Toronto.
+                I am originally from Toronto, but I like to explore and travel
+                to new places. In my free time, I do photography, what has been
+                a hobby of mine for around 6 years. I also practice Taekwondo,
+                having recently received my first degree black belt in 2019,
+                after training for over 10 years. Finally, I volunteer at my
+                local food bank called "FeedScarborough" on the Weekends, when I
+                am back in Toronto.
               </p>
             </Row>
           </Col>

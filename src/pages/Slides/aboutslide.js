@@ -10,8 +10,7 @@ export default function AboutSlide() {
     <section id="about" style={{ backgroundColor: "#152238" }}>
       <div
         style={{
-          padding: "5%",
-          paddingBottom: "2.5%",
+          padding: 50,
           backgroundColor: "#152238",
         }}
       >

@@ -5,6 +5,7 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import react, { useState } from "react";
 import "../styles.css";
+import FordLogo from "./Ford_Logo.jpg";
 import CemcLogo from "./CEMC_Logo.jpg";
 import YuJaLogo from "./YuJa_Logo.jpg";
 import InclusionUILogo from "./InclusionUI_Logo.svg";
@@ -24,6 +25,34 @@ export default function CareerSlide() {
         EXPERIENCE
       </h1>
       <VerticalTimeline lineColor={"#C0C0C0"}>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2023 - August 2023"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={FordLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Engineering Intern @ Ford Motor Company
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Oakville, ON</h4>
+          <p>
+            Develoepd backend software for vehicle fleet managment programs and
+            applications, which namely converted entities (such as Vehicles and
+            Clients) between different Ford Pro applications. Ford Pro is Ford's
+            commercial fleet services section, and I got to learn a lot about
+            the Spring Boot framework in developing various backend systems. It
+            involved a lot of collaboration on a much larger scale comapred to
+            my previous co-ops, and I learned how to use PostgreSQL to work with
+            Ford's product line database (the database shared amongst all ford
+            applications).
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}

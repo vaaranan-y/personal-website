@@ -42,12 +42,19 @@ export default function AboutSlide() {
             <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
                 I am originally from Toronto, but I like to explore and travel
-                to new places. In my free time, I do photography, what has been
+                to new places. In my free time, I do photography, which has been
                 a hobby of mine for around 6 years. I also practice Taekwondo,
                 having recently received my first degree black belt in 2019,
                 after training for over 10 years. Finally, I volunteer at my
-                local food bank called "FeedScarborough" on the Weekends, when I
-                am back in Toronto.
+                local food bank called "FeedScarborough" on the weekends and
+                some weekdays, when I am back in Toronto. They're a great
+                organization dedicated to addressing the issue of food
+                insecurity in the Scarborough neighbourhood. You can learn more
+                about them{" "}
+                <a href="https://scarboroughfoodsecurityinitiative.com/home">
+                  here
+                </a>
+                .
               </p>
             </Row>
           </Col>
@@ -73,6 +80,8 @@ export default function AboutSlide() {
               <Row id={"skillItem"}>&#8227; C++</Row>
               <Row id={"skillItem"}>&#8227; C</Row>
               <Row id={"skillItem"}>&#8227; ARM Assembly</Row>
+              <Row id={"skillItem"}>&#8227; SQL (PostgreSQL and MySQL)</Row>
+              <Row id={"skillItem"}>&#8227; NoSQL (DynamoDB and MongoDB)</Row>
             </Col>
             <Col>
               <Row id={"skillTitle"}>Frameworks</Row>
@@ -82,6 +91,7 @@ export default function AboutSlide() {
               <Row id={"skillItem"}>&#8227; Django</Row>
               <Row id={"skillItem"}>&#8227; React Native</Row>
               <Row id={"skillItem"}>&#8227; Angular.js</Row>
+              <Row id={"skillItem"}>&#8227; Spring Boot</Row>
             </Col>
             <Col>
               <Row id={"skillTitle"}>Technologies</Row>

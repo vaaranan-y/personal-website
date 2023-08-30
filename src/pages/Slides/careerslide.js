@@ -42,15 +42,12 @@ export default function CareerSlide() {
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Oakville, ON</h4>
           <p>
-            Develoepd backend software for vehicle fleet managment programs and
-            applications, which namely converted entities (such as Vehicles and
-            Clients) between different Ford Pro applications. Ford Pro is Ford's
-            commercial fleet services section, and I got to learn a lot about
-            the Spring Boot framework in developing various backend systems. It
-            involved a lot of collaboration on a much larger scale comapred to
-            my previous co-ops, and I learned how to use PostgreSQL to work with
-            Ford's product line database (the database shared amongst all ford
-            applications).
+            Developed backend software using Spring Boot for vehicle fleet
+            managment applications, which converted Ford entities (such as
+            Vehicles and Clients) between different Ford Pro applications.
+            Collaborated on a much larger scale comapred to previous co-ops,
+            learning how to use PostgreSQL to work with Ford's product line
+            database (the database shared amongst all ford applications).
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement

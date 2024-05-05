@@ -6,6 +6,8 @@ import "react-vertical-timeline-component/style.min.css";
 import react, { useState } from "react";
 import "../styles.css";
 import FordLogo from "./Ford_Logo.jpg";
+import FordProLogo from "./Ford_Pro_Logo.jpg";
+import BluerintLogo from "./Blueprint_Logo.jpg";
 import CemcLogo from "./CEMC_Logo.jpg";
 import YuJaLogo from "./YuJa_Logo.jpg";
 import InclusionUILogo from "./InclusionUI_Logo.svg";
@@ -25,9 +27,35 @@ export default function CareerSlide() {
         EXPERIENCE
       </h1>
       <VerticalTimeline lineColor={"#C0C0C0"}>
+      <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="January 2024 - Present"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={BluerintLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
+        >
+          <h3 className="vertical-timeline-element-title">
+            Technical Lead @ UW Blueprint
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Waterloo, ON</h4>
+          <p>
+            Following my role as a Project Developer at BluePrint, I took on my
+            first leadership position as a Technical Lead for another team called
+            The Children's Aid Society (CAS). CAS is a Child Protection Services
+            Organization, specifically based out of Algoma. Our team is in the 
+            process of wrapping a web application that should act as a organized
+            intake system for new children that come to CAS. The project is in 
+            its final stages, and should be deployed next month!
+          </p>
+        </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="May 2023 - August 2023"
+          date="January 2024 - April 2024"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={
             <img
@@ -38,7 +66,59 @@ export default function CareerSlide() {
           }
         >
           <h3 className="vertical-timeline-element-title">
-            Software Engineering Intern @ Ford Motor Company
+            In-Vehicle-Infotainment Development Intern @ Ford Motor Company
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Waterloo, ON</h4>
+          <p>
+            Developed firmware for the AI/ML operations of the 
+            In-Vehicle-Infotainment system of future Ford Vehicles.
+            Specifically developed a hardware accelerated video decoder
+            to operate in QNX on a SA8295P Snapdragon SoC. The AUTOSAR
+            service was developed in C++, and provided other AUTOSAR Services
+            the ability to be tested on pre-determined, decoded video footage,
+            instead of requiring a physical camera module.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="September 2023 - December 2023"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={BluerintLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
+        >
+          <h3 className="vertical-timeline-element-title">
+            Project Developer @ UW Blueprint
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">Waterloo, ON</h4>
+          <p>
+            UW Blueprint is a club at Waterloo that develops technological solutions
+            for various non-profit organizations around the world. I was a developer
+            on a team called "A Better Tent City". They are an organization dedicated
+            to providing various necessities and shelters to those in need, in the
+            Kitchener-Waterloo region (More information about them can be found here: 
+            https://www.abettertentcity.org/). In this time, I developed Backend APIs 
+            for a volunteer management application, using MongoDB, Express.js, and Prisma.
+          </p>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          date="May 2023 - August 2023"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={FordProLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%", backgroundColor: "white" }}
+            />
+          }
+        >
+          <h3 className="vertical-timeline-element-title">
+            Software Engineering Intern @ Ford Pro
           </h3>
           <h4 className="vertical-timeline-element-subtitle">Oakville, ON</h4>
           <p>

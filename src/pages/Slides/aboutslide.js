@@ -39,6 +39,17 @@ export default function AboutSlide() {
                 so I am open to any and all opportunities!
               </p>
             </Row>
+
+            <Row id={"aboutBlurb"}>
+              <p style={{ color: "#0096FF" }}>
+                My main extracurricular at school is as a member of the UW
+                Blueprint club. Blueprint is a group of students that develop
+                technological solutions to help non-profit organizations around
+                the world. I started as a developer in fall 2023, and I am 
+                currently a technical lead on a project called the Children's
+                Aid Society.
+              </p>
+            </Row>
             <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
                 I am originally from Toronto, but I like to explore and travel
@@ -92,13 +103,15 @@ export default function AboutSlide() {
               <Row id={"skillItem"}>&#8227; React Native</Row>
               <Row id={"skillItem"}>&#8227; Angular.js</Row>
               <Row id={"skillItem"}>&#8227; Spring Boot</Row>
+              <Row id={"skillItem"}>&#8227; GStreamer</Row>
+              <Row id={"skillItem"}>&#8227; AUTOSAR</Row>
             </Col>
             <Col>
               <Row id={"skillTitle"}>Technologies</Row>
               <Row id={"skillItem"}>&#8227; AWS</Row>
               <Row id={"skillItem"}>&#8227; Azure</Row>
               <Row id={"skillItem"}>
-                &#8227; Micro Controllers (STM 32, Arduino)
+                &#8227; Micro Controllers (STM 32, ESP32, Arduino)
               </Row>
               <Row id={"skillItem"}>&#8227; ARM Assembly</Row>
               <Row id={"skillItem"}>&#8227; Computer Vision</Row>

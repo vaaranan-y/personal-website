@@ -40,7 +40,7 @@ export default function AboutSlide() {
               </p>
             </Row>
 
-            <Row id={"aboutBlurb"}>
+            {/* <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
                 My main extracurricular at school is as a member of the UW
                 Blueprint club. Blueprint is a group of students that develop
@@ -49,13 +49,13 @@ export default function AboutSlide() {
                 currently a technical lead on a project called the Children's
                 Aid Society.
               </p>
-            </Row>
+            </Row> */}
             <Row id={"aboutBlurb"}>
               <p style={{ color: "#0096FF" }}>
                 I am originally from Toronto, but I like to explore and travel
                 to new places. In my free time, I do photography, which has been
-                a hobby of mine for around 6 years. I also practice Taekwondo,
-                having recently received my first degree black belt in 2019,
+                a hobby of mine ever since I learned how to use my family's point and shoot camera. 
+                I also practice Taekwondo, having received my first degree black belt in 2019,
                 after training for over 10 years. Finally, I volunteer at my
                 local food bank called "FeedScarborough" on the weekends and
                 some weekdays, when I am back in Toronto. They're a great

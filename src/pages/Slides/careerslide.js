@@ -7,8 +7,9 @@ import react, { useState } from "react";
 import "../styles.css";
 import FordLogo from "./Ford_Logo.jpg";
 import FordProLogo from "./Ford_Pro_Logo.jpg";
-import BluerintLogo from "./Blueprint_Logo.jpg";
+import BlueprintLogo from "./Blueprint_Logo.jpg";
 import CemcLogo from "./CEMC_Logo.jpg";
+import WrmthLogo from "./Wrmth_Logo.jpg";
 import YuJaLogo from "./YuJa_Logo.jpg";
 import InclusionUILogo from "./InclusionUI_Logo.svg";
 import AltaMLLogo from "./AltaML_Logo.jpg";
@@ -29,11 +30,40 @@ export default function CareerSlide() {
       <VerticalTimeline lineColor={"#C0C0C0"}>
       <VerticalTimelineElement
           className="vertical-timeline-element--work"
+          date="September 2024 - December 2024"
+          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          icon={
+            <img
+              src={WrmthLogo}
+              alt="loading..."
+              style={{ width: "100%", borderRadius: "50%" }}
+            />
+          }
+        >
+          <h3 className="vertical-timeline-element-title">
+          Embedded Software Engineer Intern @ Wrmth Corp
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle">North Bay, ON</h4>
+          <p>
+            Wrmth is a company based in North Bay, Ontario, developing and building 
+            luxury patio furniture for the winter cottage season. I had the opportunity 
+            to work on the firmware for their heated chairs, which were controllable via 
+            a mobile application, communicating over BLE (Bluetooth Low Energy). My project
+            was to enable the chair to connect to a user's home WiFi network, so that the chair
+            could be controlled remotely, via AWS. I wrote code that worked with AWS IoT core 
+            to allow the chairs to securely provision their own credentials and AWS IoT entities.
+            Furthermore, I enabled simultaneous BLE and WiFi connections, on the chair, which was
+            one of the hardest challenges I faced in this project, since the board had a single radio,
+            so I had to leverage FreeRTOS to manage the two connections, without interference.
+          </p>
+        </VerticalTimelineElement>
+      {/* <VerticalTimelineElement
+          className="vertical-timeline-element--work"
           date="January 2024 - Present"
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={
             <img
-              src={BluerintLogo}
+              src={BlueprintLogo}
               alt="loading..."
               style={{ width: "100%", borderRadius: "50%" }}
             />
@@ -52,7 +82,7 @@ export default function CareerSlide() {
             intake system for new children that come to CAS. The project is in 
             its final stages, and should be deployed next month!
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           date="January 2024 - April 2024"
@@ -85,7 +115,7 @@ export default function CareerSlide() {
           iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           icon={
             <img
-              src={BluerintLogo}
+              src={BlueprintLogo}
               alt="loading..."
               style={{ width: "100%", borderRadius: "50%" }}
             />
